@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+header h2{
+ display: unset;
+}
+.time{
+    float: right;
+    font-weight: bold;
+    color: white;
+}
+.second_container{
+   margin: 20px;
+}
+.notes_container{
+    margin: 20px;
+    padding: 20px;
+}
+.newnote{
+    display: inline-block;
+}
+.add button{
+    float: right;
+    border: none;   
+}
+.add button :hover{
+    transform: scale3d(1.5, 1.5, 1.5); 
+}
+.btn button{
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    margin: 5px;
+}
+.btn button:hover{
+    color: red;
+    background-color: yellow;
+    border: none;
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+ textarea{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+}
